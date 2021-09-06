@@ -1,0 +1,23 @@
+from selenium.webdriver.common.by import By
+
+SIGN_IN_BUTTON = "div#nav-signin-tooltip  .nav-action-inner"
+ACTIVATION_BUTTON = "div#nav-signin-tooltip > .nav-action-button"
+LANGUACE_CLICK = "//div[@id='nav-signin-tooltip']"
+USER_BY_NAME = "input#ap_email"
+CONTINUE_BUTTON = "input#continue"
+USER_BY_PASSWORD = "input#ap_password"
+CLICK_SIGNUP_BUTTON = "input#signInSubmit"
+NOT_NOW = "ap-account-fixup-phone-skip-link"
+SEARCH_FIELD = "input#twotabsearchtextbox"
+SEARCH_RESULT = "//*[@id='search']/span/div/span/h1/div/div[1]/div/div/span['samsung'][3]"
+CLICK_SECOND_PAGE = "/html//div[@class='a-section a-spacing-none a-padding-base']/div/ul/li[3]"
+#CLICK_SECOND_PAGE = "/html//div[@class='a-section a-spacing-large a-spacing-top-large a-text-center s-pagination-container']/span/a[1]"
+CLICK_THIRD_PRODUCT = "//*[@id='search']/div[1]/div[1]/div/span[3]/div[2]/div[3]/div/span/div/div/div[2]/div[1]/div/div/span/a/div"
+CLICK_ADD_LIST = "input#add-to-wishlist-button-submit"
+CLOSE_ADD_LIST = ".a-button-close.a-declarative"
+MOUSE_HOVER = "a#nav-link-accountList > .nav-line-2"
+SHOPPING_LIST= "div#nav-flyout-wl-items  a > .nav-text"
+SEE_PRODUCT = ".a-fixed-right-grid-col > .a-size-small:nth-child(1)"
+DELETE_PRODUCT = "input[name='submit.deleteItem']"
+DELETED_ALERT = ".a-spacing-none.g-item-sortable-removed  .a-section .a-alert-content"
+
