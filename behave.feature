@@ -3,7 +3,7 @@ Feature: Amazon
 	Scenario: Amazon login, add list
         Given I visit Amazon
         When I click Sign In button
-        When I login Amazon with username "berkonur.93@gmail.com" and password "Berk12345"
+        When I login Amazon with username "YOUR E-MAIL" and password "YOUR PASSWORD"
         When I write "samsung" in search field and click
         Then I check result is samsung
         Then I click second page
